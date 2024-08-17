@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class mainUI : MonoBehaviour
+public class MainUI : MonoBehaviour
 {
-    [SerializeField] private TMP_Text notiText;
-    public static mainUI instance;
+    [SerializeField] 
+    private TMP_Text notiText;
+    public static MainUI instance;
 
 
     // Start is called before the first frame update

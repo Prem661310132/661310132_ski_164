@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    [SerializeField] private int forcePower;
+    [SerializeField] public float forcePower;
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float xInput;
     [SerializeField] private int hp;
+    [SerializeField] private int score;
     public int HP { get { return hp; } set { hp = value; } }
-
+    public int Score { get { return score; } set { score = value; } }
+    
 
     // Start is called before the first frame update
     private void Start()

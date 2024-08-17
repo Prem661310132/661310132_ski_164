@@ -6,7 +6,7 @@ public class finish : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        mainUI.instance.ShowNotiText("You Win!");
+        MainUI.instance.ShowNotiText("You Win!");
 
     }
 }
