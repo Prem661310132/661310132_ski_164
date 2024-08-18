@@ -25,7 +25,7 @@ public class Coin : MonoBehaviour
 
             if (player.Score > 12)
             {
-                MainUI.instance.ShowNotiText("You're Doing Really Great /n" + player.Score);
+                MainUI.instance.ShowNotiText("You're Doing Really Great\n\n" + player.Score);
             }
         }
     }

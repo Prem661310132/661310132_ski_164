@@ -23,7 +23,7 @@ public class Tree : MonoBehaviour
         {
             originalForcePower = player.forcePower;
 
-            player.forcePower = 30f;
+            player.forcePower = 8f;
 
             player.HP -= 15;
             MainUI.instance.ShowNotiText("Ahh! -15\nHP: " + player.HP);
